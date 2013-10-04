@@ -1,0 +1,21 @@
+\usepackage[titletoc]{appendix}
+\renewcommand{\setthesection}{\arabic{chapter}.A\arabic{section}}
+
+\setmathsfont(Digits,Latin,Greek)[Numbers={Proportional}]{EB Garamond}
+\setmathrm{EB Garamond}
+\newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{EB Garamond}
+\defaultfontfeatures{Mapping=tex-text, Numbers=OldStyle}
+
+\setromanfont[Mapping=tex-text, 
+			        Numbers=OldStyle, 
+			        Ligatures={Common}]
+			       {EB Garamond} % 
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text,BoldFont={Lato Bold}]{Lato Regular}
+\setmonofont[Scale=MatchLowercase]{Consolas}
+
+
+\RequirePackage[palatino]{quotchap}
+
+\RequirePackage{titling}
+
+%\RequirePackage[super,comma,numbers]{natbib}
